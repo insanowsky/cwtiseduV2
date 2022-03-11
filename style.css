@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+body   {
+	font-family: 'JetBrains Mono', monospace;
+	background-color: #121212;
+	color: white;
+	height: 90%;
+}
+
+.tytul {
+	color:#28feaf;
+	text-align: left;
+}
+
+
+.h1title {
+
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	display:grid;
+	place-items: center;
+	text-shadow: 1px 1px 2px black, 0 0 5px black;
+	font-size: 60px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+a:visited {
+	color: white;
+}
+
+
+div#s {
+	margin: 0 auto;
+	width: 1300px;
+	height:90%;
+}
+li {
+	text-align: left;
+	color: white;
+}
+
+li:visited {
+	color:white;
+}
+
+.footer{
+	display:grid;
+	place-items: center;
+	font-size: 32px;
+	padding-top: 50px;
+}
+
+h1 > a {
+	text-decoration: none;	
+}
+
+p {
+	text-indent: 30px;
+	font-size: larger;
+	font-weight: bold;
+}
+
+.egzamin {
+	text-align: center;
+}
+
+div.kol {
+	float: left;
+}
+
+div#stopka {
+	clear: both;
+}
+
+ul > li > ul {
+  display:none;
+}
+
+ul > li:hover > ul {
+  display:block;
+}
